@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shweta - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <div class="left">Shweta's Portfolio</div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <div class="right" id="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, I'm <span class="purple">Shweta</span>
+                <div>a passionate and aspiring</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <a href="https://github.com/Ydvshweta" target="_blank" class="btn">
+                        Visit Github
+                    </a>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.jpeg" alt="Profile Picture">
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- SKILLS -->
+        <section id="skills" class="secondSection">
+            <span class="text-gray"> What I have learned so far </span>
+            <h1>Skills </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="HTML">
+                    <div class="vertical-title">HTML Developer</div>
+                    <div class="vertical-desc">
+                        Built a portfolio website and a resume builder using HTML & CSS. Showcased skills in a clean,
+                        user-friendly format.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="devops.png" alt="DevOps">
+                    <div class="vertical-title">AWS DevOps</div>
+                    <div class="vertical-desc">
+                        Containerized apps, deployed using AWS CodePipeline & EKS, and implemented CI/CD workflows.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="CSS">
+                    <div class="vertical-title">CSS Developer</div>
+                    <div class="vertical-desc">
+                        Designed responsive layouts and clean UI using CSS.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="aws.png" alt="AWS">
+                    <div class="vertical-title">Certified AWS Cloud Practitioner</div>
+                    <div class="vertical-desc">
+                        Hands-on with EC2, S3, IAM, and VPC, with strong cloud fundamentals.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="JAVA">
+                    <div class="vertical-title">Programming Language - JAVA</div>
+                    <div class="vertical-desc">
+                        Hands-on with EC2, S3, IAM, and VPC, with strong cloud fundamentals.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <header class="projects__header">
+                <h2 id="projects-title">Projects</h2>
+                <p class="projects__subtitle">Selected work showcasing front-end and DevOps skills.</p>
+            </header>
+
+            <div class="projects__grid">
+                <article class="project-card">
+                    <div class="project-card__head">
+                        <h3 class="project-card__title">My Portfolio</h3>
+                        <span class="project-card__year">2025</span>
+                    </div>
+                    <p class="project-card__desc">
+                        I developed this portfolio website using HTML and CSS to showcase my skills, projects, and
+                        achievements. The website is designed with a clean and responsive layout,
+                        ensuring it works well on different screen sizes
+                    </p>
+                    <ul class="project-card__tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <div class="project-card__actions">
+                        <a class="btn" href="#" target="_blank">Live Demo</a>
+                        <a class="btn btn--ghost" href="#" target="_blank">Source Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card__head">
+                        <h3 class="project-card__title">AWS DevOps – React App Deployment</h3>
+                        <span class="project-card__year">2025</span>
+                    </div>
+                    <p class="project-card__desc">
+                        Containerized a React app with Docker, pushed images to ECR, and automated deployment on EKS via
+                        CodePipeline, CodeBuild, and CodeDeploy with CloudWatch logging.
+                    </p>
+                    <ul class="project-card__tech">
+                        <li>AWS</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>CI/CD</li>
+                    </ul>
+                    <div class="project-card__actions">
+                        <a class="btn" href="#" target="_blank">Case Study</a>
+                        <a class="btn btn--ghost" href="#" target="_blank">Source Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card__head">
+                        <h3 class="project-card__title">AWS DevOps – React App Deployment</h3>
+                        <span class="project-card__year">2025</span>
+                    </div>
+                    <p class="project-card__desc">
+                        Containerized a React app with Docker, pushed images to ECR, and automated deployment on EKS via
+                        CodePipeline, CodeBuild, and CodeDeploy with CloudWatch logging.
+                    </p>
+                    <ul class="project-card__tech">
+                        <li>AWS</li>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>CI/CD</li>
+                    </ul>
+                    <div class="project-card__actions">
+                        <a class="btn" href="#" target="_blank">Case Study</a>
+                        <a class="btn btn--ghost" href="#" target="_blank">Source Code</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact">
+            <div class="contact-header">
+                <h2>Contact Me</h2>
+                <p>If you’d like to connect, feel free to reach out via the form below.</p>
+            </div>
+
+            <form class="contact-form" action="https://formspree.io/f/yourformid" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <p>📧 Email: <a href="ydvshweta3210@gmail.com">ydvshweta3210@gmail.com</a></p>
+                <p>🔗 GitHub: <a href="https://github.com/Ydvshweta"
+                        target="_blank">github.com/Ydvshweta</a></p>
+                <p>💼 LinkedIn: <a href="https://linkedin.com/in/ydvshweta"
+                        target="_blank">linkedin.com/in/ydvshweta</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shweta's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Projects</li>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            <p>© 2025 Shweta's Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'Cloud Enthusiast'],
+            typeSpeed: 50,
+            loop: true,
+            backSpeed: 50,
+            backDelay: 1000,
+        });
+
+        // Toggle mobile menu
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            document.getElementById('nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
